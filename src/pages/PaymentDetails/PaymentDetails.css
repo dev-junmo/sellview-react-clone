@@ -1,0 +1,7 @@
+.history_tab li.on {
+  color: #a694c7;
+}
+
+.history_tab li:last-child {
+  border-right: 1px solid #e5e7eb;
+}

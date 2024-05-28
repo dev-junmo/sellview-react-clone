@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.popular_search li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -7px;
+  top: 2px;
+  width: 1px;
+  height: 13px;
+  background: #e5e5e5;
+}
+
+.popular_search li:first-child::after {
+  display: none;
+}
+
+.category_tab li.on {
+  color: #ff4c84;
+}
+
+.category_tab li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 52%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 13px;
+  background: #c4c4c4;
+}
+
+.category_tab li:first-child::after {
+  display: none;
+}
+
+.faq_question {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.02em;
+  margin-right: 8px;
+  color: #333;
+}

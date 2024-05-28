@@ -1,0 +1,15 @@
+.campain_tab {
+
+}
+
+.campain_tab li.on {
+  color: #a694c7;
+}
+.campain_tab li.on b {
+  background: #a694c7;
+  color: #fff;
+}
+
+.campain_tab li:last-child {
+  border-right: 1px solid #e5e7eb;
+}
